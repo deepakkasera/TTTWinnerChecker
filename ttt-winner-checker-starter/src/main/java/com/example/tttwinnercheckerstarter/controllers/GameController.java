@@ -7,7 +7,7 @@ import com.example.tttwinnercheckerstarter.models.Player;
 
 import java.util.List;
 
-public class GameController {
+public class GameControllers {
     public Game startGame(int dimension, List<Player> players) throws Exception {
         return Game.getBuilder()
                 .setDimension(dimension)
